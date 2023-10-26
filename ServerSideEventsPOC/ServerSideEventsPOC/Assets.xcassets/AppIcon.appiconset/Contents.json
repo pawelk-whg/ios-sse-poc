@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "Leonardo_Diffusion_XL_server_events_in_a_mobile_application_1.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
