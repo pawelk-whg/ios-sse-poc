@@ -7,5 +7,8 @@
   		<key>NSAllowsArbitraryLoads</key>
   		<true/>
 	</dict>
+	<key>ITSEncryptionExportComplianceCode</key>
+	<string>NO</string>
+
 </dict>
 </plist>

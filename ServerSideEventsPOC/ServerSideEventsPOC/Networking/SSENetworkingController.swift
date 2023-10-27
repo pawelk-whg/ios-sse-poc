@@ -9,13 +9,13 @@ import LDSwiftEventSource
 
 protocol SSENetworkingController {
     var eventPublisher: AnyPublisher<SSEEvent, Never> { get }
-    func connectToServer()
+    func connectToServer() async
     func disconnectFromServer()
 }
 
 final class LiveSSENetworkingController: SSENetworkingController {
-    private let url: URL
     private let factory: any EventSourceFactory
+    private let storage: LocalStorage
     private let eventsSubject = PassthroughSubject<SSEEvent, Never>()
 
     private var eventSource: EventSourceProtocol?
@@ -24,13 +24,17 @@ final class LiveSSENetworkingController: SSENetworkingController {
         eventsSubject.eraseToAnyPublisher()
     }
 
-    init(factory: EventSourceFactory = LiveEventSourceFactory(), url: URL = .Const.baseURL) {
+    init(
+        factory: EventSourceFactory = LiveEventSourceFactory(),
+        storage: LocalStorage = UserDefaults.standard
+    ) {
         self.factory = factory
-        self.url = url
+        self.storage = storage
     }
 
-    func connectToServer() {
+    func connectToServer() async {
         guard eventSource == nil else { return }
+        let url: URL = await storage.getValue(forKey: StorageKeys.baseURL.rawValue) ?? .Const.baseURL
         eventSource = factory.makeEventSource(url: url, handler: self)
         eventSource?.start()
     }

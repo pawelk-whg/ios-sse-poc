@@ -7,28 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AC263F62AEB921500E45BF6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC263F52AEB921500E45BF6 /* HomeView.swift */; };
 		2AE5027B2AEA316700E7C8A1 /* ServerSideEventsPOCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE5027A2AEA316700E7C8A1 /* ServerSideEventsPOCApp.swift */; };
-		2AE5027D2AEA316700E7C8A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE5027C2AEA316700E7C8A1 /* ContentView.swift */; };
 		2AE5027F2AEA316900E7C8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE5027E2AEA316900E7C8A1 /* Assets.xcassets */; };
 		2AE502822AEA316900E7C8A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE502812AEA316900E7C8A1 /* Preview Assets.xcassets */; };
 		2AE5028A2AEA32FC00E7C8A1 /* LDSwiftEventSource in Frameworks */ = {isa = PBXBuildFile; productRef = 2AE502892AEA32FC00E7C8A1 /* LDSwiftEventSource */; };
 		E818702A1A7FACB77A3E0BC4 /* SSENetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8187CA2C71D15A2BCBC3D66 /* SSENetworkingController.swift */; };
+		E818727E87DBC40BF9A8E445 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8187EC8FFE82432F9CE05B1 /* SettingsViewModel.swift */; };
 		E81872A4E38E9FF4FBE375FF /* SSEEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8187CEC3446C5274E19D355 /* SSEEvent.swift */; };
+		E81873863FFF63EDEC2EAFC5 /* UserDefaults+LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8187D693EB70F501779F1C7 /* UserDefaults+LocalStorage.swift */; };
 		E81876252A822927866CF5C3 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8187C4FACE24EAC7F9D53B1 /* EventSource.swift */; };
-		E8187AA46BB452228259C9CE /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8187A3DA9777AA5B6A8BB17 /* ContentViewModel.swift */; };
+		E81879FA2A614B3CE2C93434 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8187B7AF9BCC9EF277FDE57 /* ContentView.swift */; };
+		E8187AF18FAA4EEF358D8ABA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81879F697B1AC27D929D9AA /* SettingsView.swift */; };
+		E8187C2F9D3F2D4E58860366 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81873CF17A6C2BA3C72597C /* ContentViewModel.swift */; };
+		E8187D4BF29F711A07434DAD /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8187E60D6FD35D20091E34E /* LocalStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2AE502772AEA316700E7C8A1 /* ServerSideEventsPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerSideEventsPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC263F52AEB921500E45BF6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2AE502772AEA316700E7C8A1 /* SSE POC Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSE POC Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE5027A2AEA316700E7C8A1 /* ServerSideEventsPOCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerSideEventsPOCApp.swift; sourceTree = "<group>"; };
-		2AE5027C2AEA316700E7C8A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AE5027E2AEA316900E7C8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE502812AEA316900E7C8A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2AE502AC2AEA68B700E7C8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		E8187A3DA9777AA5B6A8BB17 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E81873CF17A6C2BA3C72597C /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E81879F697B1AC27D929D9AA /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E8187B7AF9BCC9EF277FDE57 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8187C4FACE24EAC7F9D53B1 /* EventSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSource.swift; sourceTree = "<group>"; };
 		E8187CA2C71D15A2BCBC3D66 /* SSENetworkingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSENetworkingController.swift; sourceTree = "<group>"; };
 		E8187CEC3446C5274E19D355 /* SSEEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSEEvent.swift; sourceTree = "<group>"; };
+		E8187D693EB70F501779F1C7 /* UserDefaults+LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+LocalStorage.swift"; sourceTree = "<group>"; };
+		E8187E60D6FD35D20091E34E /* LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		E8187EC8FFE82432F9CE05B1 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,7 @@
 		2AE502782AEA316700E7C8A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AE502772AEA316700E7C8A1 /* ServerSideEventsPOC.app */,
+				2AE502772AEA316700E7C8A1 /* SSE POC Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,11 +74,13 @@
 			children = (
 				2AE502AC2AEA68B700E7C8A1 /* Info.plist */,
 				2AE5027A2AEA316700E7C8A1 /* ServerSideEventsPOCApp.swift */,
-				2AE5027C2AEA316700E7C8A1 /* ContentView.swift */,
+				2AC263F52AEB921500E45BF6 /* HomeView.swift */,
 				2AE5027E2AEA316900E7C8A1 /* Assets.xcassets */,
 				2AE502802AEA316900E7C8A1 /* Preview Content */,
-				E8187A3DA9777AA5B6A8BB17 /* ContentViewModel.swift */,
 				E8187616CD90CB85EDD9DC42 /* Networking */,
+				E818710F65010A12F642637A /* Showcase */,
+				E8187EED3016C9B888248249 /* Settings */,
+				E8187C443855224F35D6E151 /* Storage */,
 			);
 			path = ServerSideEventsPOC;
 			sourceTree = "<group>";
@@ -81,6 +93,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E818710F65010A12F642637A /* Showcase */ = {
+			isa = PBXGroup;
+			children = (
+				E81873CF17A6C2BA3C72597C /* ContentViewModel.swift */,
+				E8187B7AF9BCC9EF277FDE57 /* ContentView.swift */,
+			);
+			path = Showcase;
+			sourceTree = "<group>";
+		};
 		E8187616CD90CB85EDD9DC42 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +110,24 @@
 				E8187C4FACE24EAC7F9D53B1 /* EventSource.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		E8187C443855224F35D6E151 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				E8187E60D6FD35D20091E34E /* LocalStorage.swift */,
+				E8187D693EB70F501779F1C7 /* UserDefaults+LocalStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		E8187EED3016C9B888248249 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E81879F697B1AC27D929D9AA /* SettingsView.swift */,
+				E8187EC8FFE82432F9CE05B1 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,7 +150,7 @@
 				2AE502892AEA32FC00E7C8A1 /* LDSwiftEventSource */,
 			);
 			productName = ServerSideEventsPOC;
-			productReference = 2AE502772AEA316700E7C8A1 /* ServerSideEventsPOC.app */;
+			productReference = 2AE502772AEA316700E7C8A1 /* SSE POC Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,12 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE5027D2AEA316700E7C8A1 /* ContentView.swift in Sources */,
+				2AC263F62AEB921500E45BF6 /* HomeView.swift in Sources */,
 				2AE5027B2AEA316700E7C8A1 /* ServerSideEventsPOCApp.swift in Sources */,
-				E8187AA46BB452228259C9CE /* ContentViewModel.swift in Sources */,
 				E818702A1A7FACB77A3E0BC4 /* SSENetworkingController.swift in Sources */,
 				E81872A4E38E9FF4FBE375FF /* SSEEvent.swift in Sources */,
 				E81876252A822927866CF5C3 /* EventSource.swift in Sources */,
+				E8187AF18FAA4EEF358D8ABA /* SettingsView.swift in Sources */,
+				E8187C2F9D3F2D4E58860366 /* ContentViewModel.swift in Sources */,
+				E81879FA2A614B3CE2C93434 /* ContentView.swift in Sources */,
+				E818727E87DBC40BF9A8E445 /* SettingsViewModel.swift in Sources */,
+				E8187D4BF29F711A07434DAD /* LocalStorage.swift in Sources */,
+				E81873863FFF63EDEC2EAFC5 /* UserDefaults+LocalStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,10 +343,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ServerSideEventsPOC/Preview Content\"";
-				DEVELOPMENT_TEAM = 663KXV4GKQ;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 663KXV4GKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ServerSideEventsPOC/Info.plist;
@@ -316,8 +362,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.whitehatgaming.ServerSideEventsPOC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitehatgaming.server-side-events-poc";
+				PRODUCT_NAME = "SSE POC Dev";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Server Side Events POC Dev";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -332,10 +380,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ServerSideEventsPOC/Preview Content\"";
-				DEVELOPMENT_TEAM = 663KXV4GKQ;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 663KXV4GKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ServerSideEventsPOC/Info.plist;
@@ -349,8 +399,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.whitehatgaming.ServerSideEventsPOC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitehatgaming.server-side-events-poc";
+				PRODUCT_NAME = "SSE POC";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Server Side Events POC AppStore";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

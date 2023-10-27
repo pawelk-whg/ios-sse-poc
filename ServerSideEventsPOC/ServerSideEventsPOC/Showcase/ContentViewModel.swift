@@ -46,7 +46,9 @@ final class LiveContentViewModel: ContentViewModel {
     }
 
     func connect() {
-        sseNetworkingController.connectToServer()
+        Task {
+            await sseNetworkingController.connectToServer()
+        }
     }
 
     func disconnect() {

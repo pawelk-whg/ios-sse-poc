@@ -9,7 +9,7 @@ import SwiftUI
 struct ServerSideEventsPOCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: LiveContentViewModel())
+            HomeView()
         }
     }
 }
