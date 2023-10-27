@@ -19,6 +19,7 @@ protocol ContentViewModel: ObservableObject {
     func onViewAppeared()
     func connect()
     func disconnect()
+    func clearLog()
 }
 
 final class LiveContentViewModel: ContentViewModel {
@@ -53,6 +54,11 @@ final class LiveContentViewModel: ContentViewModel {
 
     func disconnect() {
         sseNetworkingController.disconnectFromServer()
+    }
+
+    func clearLog() {
+        events = []
+        composeViewState()
     }
 }
 

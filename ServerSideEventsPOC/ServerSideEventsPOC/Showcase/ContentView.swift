@@ -29,13 +29,21 @@ struct ContentView<ViewModel>: View where ViewModel: ContentViewModel {
 private extension ContentView {
 
     func makeSectionHeader() -> some View {
-        Button(isConnected ? "Disconnect" : "Connect") {
-            if isConnected {
-                viewModel.disconnect()
-            } else {
-                viewModel.connect()
+        HStack {
+            Button(isConnected ? "Disconnect" : "Connect") {
+                if isConnected {
+                    viewModel.disconnect()
+                } else {
+                    viewModel.connect()
+                }
+                self.isConnected.toggle()
             }
-            self.isConnected.toggle()
+            Spacer()
+            Button {
+                viewModel.clearLog()
+            } label: {
+                Image(systemName: "clear.fill")
+            }
         }
     }
 }
